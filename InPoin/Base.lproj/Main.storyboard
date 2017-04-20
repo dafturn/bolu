@@ -44,6 +44,164 @@
             </objects>
             <point key="canvasLocation" x="-1673" y="404"/>
         </scene>
+        <!--RegisterVC-->
+        <scene sceneID="vP4-B8-OT0">
+            <objects>
+                <viewController id="RVm-ho-4gG" customClass="RegisterVC" customModule="InPoin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jpy-Xr-BLN"/>
+                        <viewControllerLayoutGuide type="bottom" id="a9h-sb-sU2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tZi-gV-e7q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mW1-cQ-VyN">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1w-LS-ad2">
+                                        <rect key="frame" x="14" y="21" width="48" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="back"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.043137254899999998" green="0.49019607840000001" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="f1w-LS-ad2"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMV-mz-Tfa">
+                                <rect key="frame" x="66" y="29" width="197" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJ1-ZY-NKq">
+                                <rect key="frame" x="18" y="16" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back"/>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABv-wU-fVn">
+                                <rect key="frame" x="0.0" y="65" width="320" height="503"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qbt-yR-SAv">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="427"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nama Lengkap" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H8p-ks-HnL" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="33" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="fG1-oT-CEi"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="8KQ-0Y-Xx5"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pED-Ea-XTm">
+                                                <rect key="frame" x="98" y="381" width="125" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.043137254899999998" green="0.4941176471" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="REGISTER">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="doLogin:" destination="6Pj-QQ-Ejn" eventType="touchUpInside" id="Aem-gc-gRF"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nomor Handphone" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z37-yo-oc8" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="82" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="agx-bT-eXY"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="hhq-na-lpX"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NIP" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6dC-iT-xJS" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="130" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="KGu-uq-wTj"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="6F0-Yr-n8l"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Kementrian BUMN" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YCM-ha-6eq" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="177" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="5Zu-Ob-NjB"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="dLQ-7B-v8Q"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Status" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iGl-v4-ItH" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="226" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="CMp-7U-76k"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="n12-TZ-sbY"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PIN" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7A0-gz-TAD" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="273" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="2zL-mY-1mA"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="v35-AT-fM1"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Konfirmasi PIN" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kiY-va-Hl3" customClass="TextField" customModule="InPoin" customModuleProvider="target">
+                                                <rect key="frame" x="39" y="323" width="242" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="textNomorHPDidBegin:" destination="6Pj-QQ-Ejn" eventType="editingDidBegin" id="kaV-P5-fdB"/>
+                                                    <action selector="textNomorHPEnd:" destination="6Pj-QQ-Ejn" eventType="editingDidEnd" id="imD-N5-pN2"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sds-b6-ejC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-890.625" y="950.70422535211264"/>
+        </scene>
         <!--LoginVC-->
         <scene sceneID="n7T-WY-Wel">
             <objects>
