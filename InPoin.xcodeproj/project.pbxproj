@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE8E94CE1EA8EED100537AF2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E94CD1EA8EED100537AF2 /* RegisterVC.swift */; };
 		BEA94A021E9FC7B80017849E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA94A011E9FC7B80017849E /* AppDelegate.swift */; };
 		BEA94A041E9FC7B80017849E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA94A031E9FC7B80017849E /* HomeVC.swift */; };
 		BEA94A071E9FC7B80017849E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA94A051E9FC7B80017849E /* Main.storyboard */; };
@@ -117,6 +118,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE8E94CD1EA8EED100537AF2 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		BEA949FE1E9FC7B80017849E /* InPoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InPoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA94A011E9FC7B80017849E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA94A031E9FC7B80017849E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				BEE3B9D61EA7B9DE004734F2 /* StartVC.swift */,
 				BEE3B9D41EA7A62D004734F2 /* LoginVC.swift */,
 				BEA94A031E9FC7B80017849E /* HomeVC.swift */,
+				BE8E94CD1EA8EED100537AF2 /* RegisterVC.swift */,
 				BEA94A051E9FC7B80017849E /* Main.storyboard */,
 				BEA94A081E9FC7B80017849E /* Assets.xcassets */,
 				BEA94A0A1E9FC7B80017849E /* LaunchScreen.storyboard */,
@@ -455,6 +458,7 @@
 				BEF1B7B31EA2719A002450FA /* UIImage+AspectFit.swift in Sources */,
 				BEE3B9D71EA7B9DE004734F2 /* StartVC.swift in Sources */,
 				BEF1B7AF1EA2719A002450FA /* FullScreenSlideshowViewController.swift in Sources */,
+				BE8E94CE1EA8EED100537AF2 /* RegisterVC.swift in Sources */,
 				BEE3B9D11EA79F01004734F2 /* Global.swift in Sources */,
 				BEA94A021E9FC7B80017849E /* AppDelegate.swift in Sources */,
 			);
