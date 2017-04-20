@@ -8,7 +8,7 @@
 
 import UIKit
 
-let appName: String = "InPoin 3"
+let appName: String = "InPoin"
 var goingToHome: Bool = false
 var goingToLogin: Bool = false
 
